@@ -18,7 +18,7 @@ pheader = {
 }
 
 pload = json.dumps({
-    "data-raw": {
+    "data": {
         "dataSource": "shared-tier-tf",
         "database": "sample_training",
         "collection": "grades",
