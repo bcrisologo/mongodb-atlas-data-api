@@ -7,6 +7,9 @@ config/test
 # Ignore Temp Directory
 tmp
 
+# env files
+**/.env
+
 # Logs
 logs
 *.log
