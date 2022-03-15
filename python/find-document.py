@@ -16,11 +16,11 @@ pheader = {
 }
 
 pload = json.dumps({
-  "dataSource": "shared-tier-tf",
-  "database": "sample_training",
-  "collection": "grades",
+  "dataSource": "cluste_name",
+  "database": "database_name",
+  "collection": "collection_name",
   "filter": {
-    "student_id": 4
+    "field": "value"
   }
 })
 
