@@ -12,20 +12,18 @@ data_api_key = os.environ.get('data_api_key')
 findOne = data_api_endpoint + '/action/findOne'
 
 pheader = {
-    "api-key": 'data_api_key',
+    "api-key": data_api_key,
     "Content-Type": "application/json",
     "Access-Control-Request-Headers": "*"
 }
 
 pload = json.dumps({
-    "data": {
-        "dataSource": "shared-tier-tf",
-        "database": "sample_training",
-        "collection": "grades",
-        "filter": {
-            "student_id": 4
-        }
-    }
+  "dataSource": "shared-tier-tf",
+  "database": "sample_training",
+  "collection": "grades",
+  "filter": {
+    "student_id": 4
+  }
 })
 
 # HTTP Requests
