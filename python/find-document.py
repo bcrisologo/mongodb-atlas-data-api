@@ -3,8 +3,8 @@
 import requests
 import json
 
-data_api_endpoint = 'data_api_url'
-data_api_key = 'data_api_key'
+data_api_endpoint = 'data_api_url'  # URL Endpoint
+data_api_key = 'data_api_key'       # Data API Key
 
 # Action
 findOne = data_api_endpoint + '/action/findOne'
@@ -16,7 +16,7 @@ pheader = {
 }
 
 pload = json.dumps({
-  "dataSource": "cluste_name",
+  "dataSource": "cluste_name",    # cluster name
   "database": "database_name",
   "collection": "collection_name",
   "filter": {
