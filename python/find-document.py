@@ -1,12 +1,10 @@
 # Data API for find document
 
-import os
 import requests
 import json
 
-data_api_endpoint = os.environ.get('data_api_url')
-data_api_name = os.environ.get('data_api_name')
-data_api_key = os.environ.get('data_api_key')
+data_api_endpoint = 'data_api_url'
+data_api_key = 'data_api_key'
 
 # Action
 findOne = data_api_endpoint + '/action/findOne'
