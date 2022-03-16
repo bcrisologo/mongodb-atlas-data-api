@@ -44,7 +44,7 @@ python3 <name_of_file>.py
 ```
 
 ## Sample Results
-For the (sample training dataset)[https://docs.atlas.mongodb.com/sample-data/sample-training/] with the payload:
+For the [sample training dataset](https://docs.atlas.mongodb.com/sample-data/sample-training/) with the payload:
 
 ```json
 {
