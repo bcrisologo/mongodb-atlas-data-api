@@ -12,6 +12,8 @@ app.use(express.json());
 const api_key = "data_api_key";     // Data API
 const url = "url_endpoint";         // Base URL Endpoint
 
+// ========= Payload body =========
+
 var pdata_findOne = JSON.stringify({
     "dataSource": "cluster_name",
     "database": "database_name",
@@ -39,11 +41,15 @@ var pdata_deleteOne = JSON.stringify({
     }
 });
 
+// ========= Payload header =========
+
 var pheader = {
     "Content-Type": "application/json",
     "Access-Control-Request-Headers": "*",
     "api-key": api_key
 }
+
+// ========= Consolidated params =========
 
 var config = {
     method: 'post',
@@ -51,6 +57,8 @@ var config = {
     headers: pheader,
     data: pdata_findOne
 };
+
+// ========= Calling axios =========
 
 app.listen(port, () => {
     // Sending of POST command
