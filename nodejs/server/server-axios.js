@@ -57,5 +57,7 @@ app.listen(port, () => {
     axios(config)
     .then((response) => {
         console.log(JSON.stringify(response.data));
+        console.log('Process completed');
+        process.exit(0);
     })
 });
