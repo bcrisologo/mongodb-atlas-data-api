@@ -3,7 +3,6 @@ const app = express();
 require("dotenv").config({ path: "./.env" });
 const port = process.env.PORT || 5000;
 const axios = require('axios');
-const https = require('https');
 
 app.use(express.json());
 
