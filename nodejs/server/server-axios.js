@@ -1,12 +1,10 @@
 const express = require("express");
 const app = express();
-const cors = require("cors");
 require("dotenv").config({ path: "./.env" });
 const port = process.env.PORT || 5000;
 const axios = require('axios');
 const https = require('https');
 
-app.use(cors());
 app.use(express.json());
 
 const api_key = "data_api_key";     // Data API
