@@ -4,8 +4,6 @@ require("dotenv").config({ path: "./.env" });
 const port = process.env.PORT || 5000;
 const axios = require('axios');
 
-app.use(express.json());
-
 const api_key = "data_api_key";     // Data API
 const url = "url_endpoint";         // Base URL Endpoint
 
