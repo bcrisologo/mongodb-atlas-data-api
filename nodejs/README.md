@@ -4,6 +4,7 @@
 
 Inside the `server` folder contains the following file:
 * `server-axios.js` - sends POST requests using [axios](https://www.npmjs.com/package/axios) 
+* `server-node-fetch.js`- sends POST requests using [node-fetch](https://www.npmjs.com/package/node-fetch)
 
 
 
@@ -13,9 +14,9 @@ Inside the `server` folder contains the following file:
 
 1. Create the [Data API Key](https://docs.atlas.mongodb.com/api/data-api/#2.-create-a-data-api-key).
 
-1. Install the following packages on the `server` folder with the command:
+1. Install the following packages on the `server` folder with the [npm](https://www.npmjs.com/) command:
 ```
-npm install express axios cors https
+npm install express axios node-fetch
 ```
 
 On the JS file, update the following variables:
