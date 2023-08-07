@@ -1,6 +1,6 @@
 asitop==0.0.23
 blessed==1.20.0
-certifi==2022.12.7
+certifi==2023.7.22
 charset-normalizer==2.1.1
 contourpy==1.0.6
 cycler==0.11.0
@@ -20,8 +20,8 @@ psutil==5.9.4
 pymongo==4.3.3
 pyparsing==3.0.9
 python-dateutil==2.8.2
-PyYAML==6.0
-requests==2.28.1
+PyYAML @ file:///private/tmp/pyyaml-20230717-6270-1iiwi1j/PyYAML-6.0.1
+requests==2.31.0
 six==1.16.0
 urllib3==1.26.13
 wcwidth==0.2.6
