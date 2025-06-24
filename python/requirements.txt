@@ -12,7 +12,7 @@ matplotlib==3.9.0
 mtools==1.7.2
 numpy==1.26.4
 packaging==24.0
-pillow==10.3.0
+pillow==11.2.1
 psutil==5.9.8
 pymongo==4.7.2
 pyparsing==3.1.2
